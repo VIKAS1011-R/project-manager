@@ -5,7 +5,7 @@ import CircleIcon from "@mui/icons-material/Circle";
 
 function SingleProjectCard() {
   return (
-    <li className="w-[30%] flex flex-col gap-8 rounded-lg p-7 bg-white border border-slate-300">
+    <li className=" w-[300px] flex flex-col gap-8 rounded-lg p-6 bg-white border border-slate-300">
       <ProjectCardheader />
       <ProjectCardBody />
       <ProjectCardFooter />
