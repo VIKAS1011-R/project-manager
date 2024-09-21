@@ -5,7 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 function ProjectHeader() {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between max-sm:max-w-[350px]">
       <SearchBar />
       <AddProjectButton />
     </div>
