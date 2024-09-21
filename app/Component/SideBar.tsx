@@ -6,7 +6,7 @@ import LogoutIcon from "@mui/icons-material/Logout";
 
 function SideBar() {
   return (
-    <div className="w-[97px] h-screen py-8 bg-white flex flex-col items-center justify-between border-r">
+    <div className="w-[97px] h-screen py-8 bg-white flex flex-col items-center justify-between border-r max-sm:hidden">
       <Logo />
       <Menu />
       <Profile />

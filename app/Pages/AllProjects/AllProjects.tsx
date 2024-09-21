@@ -13,7 +13,7 @@ function AllProjects() {
 
 function AllProjectArea() {
   return (
-    <div className='w-[78%] p-10 flex flex-col gap-3'>
+    <div className='w-[78%] max-lg:w-full p-10 max-sm:p-8 flex flex-col gap-3'>
       <ProjectHeader/>
       <ProjectsSubHeader/>
       <AllProjectsSection/>
